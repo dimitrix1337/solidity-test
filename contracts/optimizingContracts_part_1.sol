@@ -13,7 +13,7 @@ contract shipInternally {
     address owner;
     address payable[] clients;
 
-    // OF COURSE IN A PRODUCTION I WILL USE OPENZEPPELIN OWNABLE...
+    // OF COURSE IN A PRODUCTION I WILL USE OPENZEPPELIN OWNABLE..
     modifier onlyOwner() {
         require(msg.sender == owner);
         _;
