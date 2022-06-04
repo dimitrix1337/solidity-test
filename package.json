@@ -1,0 +1,27 @@
+{
+  "name": "solidity-test",
+  "version": "1.0.0",
+  "description": "Build a vanity name registering system resistant against frontrunning.\r The purpose of the name is outside the scope of the assignment and you can make\r reasonable assumptions on the size, encoding, etc of the name to complete in time.\r An unregistered name can be registered for a certain amount of time by locking a certain\r balance of an account. After the registration expires, the account loses ownership of the\r name and his balance is unlocked. The registration can be renewed by making an on-chain\r call to keep the name registered and balance locked.\r You can assume reasonable defaults for the locking amount and period.\r The fee to register the name depends directly on the size of the name. Also, a malicious\r node/validator should not be able to front-run the process by censoring transactions of an\r honest user and registering its name in its own account.",
+  "main": "test_functions.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lambda1337/solidity-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lambda1337/solidity-test/issues"
+  },
+  "homepage": "https://github.com/lambda1337/solidity-test#readme",
+  "devDependencies": {
+    "@uniswap/sdk-core": "^3.0.1",
+    "@uniswap/v3-sdk": "^3.8.2"
+  }
+}
