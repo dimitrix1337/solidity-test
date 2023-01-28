@@ -5,7 +5,7 @@ pragma solidity ^0.8.0;
 
 /*
     @title Testing proxy
-    @author lambda1337
+    @author octaviusp
     @notice Don't use it in real world, this is only for development purposes.
     @dev Upgrading contract and upgrading storage.
     @ABSTRACT IT WORKS PERFECTLY, BUT IS ONLY A PERSONAL TEST.
